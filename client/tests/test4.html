@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="js/jquery.js" type="text/javascript"></script> 
+</head>
+<body>
+</body>
+<script>
+
+var ComboBox = function(id,name){
+
+	var comboBox = $(document.createElement("SELECT"));
+
+	(function(s){
+
+		s.addOption = function(key,value){
+		
+			this.append(new Option(value,key));
+		};
+
+	})(comboBox);
+	
+	comboBox.attr("id",id);
+	comboBox.attr("name",name);
+
+	return comboBox;
+};
+</script>
+</html>

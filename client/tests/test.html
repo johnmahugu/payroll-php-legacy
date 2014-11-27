@@ -1,0 +1,113 @@
+<html>
+<head>
+<style>
+div.row 
+{
+    clear: both;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+ 
+div.row span.label 
+{
+    padding-left: 10px;
+    padding-right: 0px;
+    float: left;
+    width: 100px;
+    text-align: right;
+}
+ 
+span.labelwarning 
+{
+    padding-left: 10px;
+    padding-right: 0px;
+    float: left;
+    width: 100px;
+    text-align: right;
+    color: #ff0000;
+}
+ 
+div.row span.formw 
+{
+    float: right;
+    width: 455px;
+    text-align: left;
+} 
+ 
+ 
+
+</style>
+</head>
+<body>
+<form id="personal" action="application.php?step=2" method="post">
+    <!-- 
+    Personal details
+    -->    
+    <div class="row">
+        <h4 class="eventListItem">Personal Details </h4>
+    </div>
+ 
+    <div class="row">
+        <span class="labelwarning">
+            Title:
+        </span>
+        <span class="formw">
+            <input id="title" type="text" maxlength="15" size="47" />
+        </span>
+    </div>
+ 
+    <div class="row">
+        <span class="labelwarning">
+            Forename(s):
+        </span>
+        <span class="formw">
+            <input id="forename" type="text" maxlength="30" size="47" />
+        </span>
+    </div>
+ 
+    <div class="row">
+        <span class="labelwarning">
+            Surname:
+        </span>
+        <span class="formw">
+            <input id="surname" type="text" maxlength="30" size="47" />
+        </span>
+    </div>
+ 
+    <div class="row">
+        <span class="label">
+            Note:
+        </span>
+        <span class="formw">
+            <textarea id="note" cols="44" rows="8">
+            </textarea>
+        </span>    
+    </div>
+ 
+<div class="row">
+        <h4 class="eventListItem">Access Details </h4>
+    </div>
+ 
+        <div class="row">
+        <span class="labelwarning">
+            Username:
+        </span>
+        <span class="formw">
+            <input id="username" type="text" size="47" />
+        </span>
+    </div>
+ 
+    <div class="row">
+        <span class="labelwarning">
+            Password:
+        </span>
+        <span class="formw">
+            <input id="password" type="password" maxlength="18" size="47" /> 
+             (6-18 characters)
+        </span>
+    </div>
+ 
+ 
+
+</body>
+</html>
