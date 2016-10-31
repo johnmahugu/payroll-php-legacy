@@ -1,14 +1,12 @@
-PHP Legacy Payroll
-==================
+Sample Payroll Legacy Project
+=============================
 
-## Demo
+## [Demo](http://pitsolu.dx.am/phpayroll/client/index.html)
 
-To view demo click [here.](http://pitsolu.dx.am/phpayroll/client/index.html)
+* username: **admin**
+* password: **admin**
 
-username: **admin**
-password: **admin**
-
-## Tools
+## Uses
 
 1. jQuery
-2. PHP Doctrine1.2
+2. Doctrine 1.2
